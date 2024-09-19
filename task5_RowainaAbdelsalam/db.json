@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "img": "imgs/newBalance.jpg",
+      "title": "Sneakers",
+      "description": "new balance 530 unisex shoes",
+      "price": 300,
+      "brand": "New Balance"
+    },
+    {
+      "id": "3",
+      "img": "imgs/img1.jpg",
+      "title": "t-shirt",
+      "description": "printed t-shirt",
+      "price": 320,
+      "brand": "Local brand"
+    },
+    {
+      "id": "4",
+      "img": "imgs/sweatshirt.jpg",
+      "title": "sweatshirt",
+      "description": "Mens Casual Vintage Believe73",
+      "price": 350,
+      "brand": "Zaful"
+    },
+    {
+      "id": "6",
+      "img": "imgs/hoodie.jpg",
+      "title": "Hoodie",
+      "description": "basic dark green hoodie",
+      "price": 320,
+      "brand": "Shein"
+    },
+    {
+      "id": "7",
+      "img": "imgs/nike.jpg",
+      "title": "nike shoes",
+      "description": "woman nike blazer mid 77 casual shoes",
+      "price": 180,
+      "brand": "NIKE"
+    },
+    {
+      "id": "8",
+      "img": "imgs/t-shirt.jpg",
+      "title": "t-shirt",
+      "description": "nike sportware t-shirt ",
+      "price": 120,
+      "brand": "NIKE"
+    },
+    {
+      "id": "03cc",
+      "img": "imgs/img1.jpg",
+      "title": "roma",
+      "description": "roma magdy ",
+      "price": "50000",
+      "brand": "magdy's daughter"
+    },
+    {
+      "id": "dcf6",
+      "img": "imgs/img1.jpg",
+      "title": "menna",
+      "description": "nounyyyyyy",
+      "price": "50000",
+      "brand": "ayman's daughter"
+    }
+  ],
+  "users": [
+    {
+      "id": "3039",
+      "email": "rony2@gmail.com",
+      "password": "1142004",
+      "userName": "rony"
+    },
+    {
+      "id": "1540",
+      "email": "sheta@gmail.com",
+      "password": "122",
+      "userName": "sheta"
+    }
+  ],
+  "cart": [
+    {
+      "id": "d4ef",
+      "productImg": "imgs/sweatshirt.jpg",
+      "productTitle": "sweatshirt",
+      "productPrice": 350,
+      "productBrand": "Zaful"
+    }
+  ]
+}

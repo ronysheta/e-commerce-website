@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index5.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <!--<header>
+    <div class="nav-bar">
+      <nav>
+        <a class="logo" href=""><h1>LOGO</h1></a>
+        <ul>
+          <li><a href="#" class="menu" onclick="render_pro()">Home</a></li>
+          <li><a href="#" class="menu" onclick="render_add()">Add</a></li>
+          <li><a href="#" class="menu" onclick="render_signup_toggle()" id="loginLogoutLink">Login</a></li>
+          <li><a href="#" class="menu" onclick="render_car()" >Cart <i class='bx bx-cart' ></i></a></li>
+        </ul>
+        <div class="input-container">
+          <input type="text" placeholder="Type something..." id="search" >
+          <button id="toggle-input" onclick="search()"><i class="ri-search-line"></i></button>
+        </div>
+        </nav>
+    </div>
+  </header>-->
+
+  <section class="header">
+    <a href="#"><img src="imgs/logo.png" class="logo" alt=""></a>
+    <div>
+      <ul class="navbar">
+        <li><a  href="#" onclick="render_pro(); handleNavClick(event)">Home</a></li>
+        <li><a  href="#"  onclick="render_add(); handleNavClick(event)">Add</a></li>
+        <li><a  href="#" onclick="render_signup_toggle(); handleNavClick(event)" id="loginLogoutLink">Login</a></li>
+        <li><a  href="#" onclick="render_car(); handleNavClick(event)"><i class="ri-shopping-bag-line"></i></a></li>
+        
+      </ul>
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Type something..." id="search" >
+      <button id="toggle-input" onclick="search()"><i class="ri-search-line"></i></button>
+    </div>
+  </section>
+
+  <div id="pro-card">
+    
+  </div>
+
+  <footer >
+    <div class="col">
+      <img class="logo" src="imgs/logo.png" alt="">
+      <h4>Contact</h4>
+      <p><strong>Address :</strong> 63 Wadea Bashor Street</p>
+      <p><strong>Phone :</strong> 01507649356 </p>
+      <p><strong>Hours :</strong> 8 am - 11 pm </p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icons">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-twitter-x-line"></i>
+          <i class="ri-instagram-line"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery infoemation</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign in</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; first product project - Rony Sheta</p>
+    </div>
+  </footer>
+
+  
+  <script src="index5.js"></script>
+</body>
+</html>
